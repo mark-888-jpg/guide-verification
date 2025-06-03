@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导游验证页面</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+            background: linear-gradient(to bottom, #d0ecff, #ffffff);
+            color: #333;
+        }
+        .topbar {
+            background-color: #f9f9f9;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+        .topbar-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .topbar-subtitle {
+            font-size: 12px;
+            color: #666;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .photo {
+            width: 220px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .name {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .desc {
+            font-size: 16px;
+            margin: 10px 0 30px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .section img {
+            width: 180px;
+            height: 180px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            background: #fff;
+        }
+        .section-text {
+            max-width: 300px;
+            text-align: left;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section-desc {
+            font-size: 14px;
+            color: #555;
+        }
+        .section-tip {
+            font-size: 12px;
+            color: #f90;
+            margin-top: 6px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar-title">添加关注</div>
+        <div class="topbar-subtitle">tgauth.mr.mct.gov.cn</div>
+    </div>
+    <div class="container">
+        <img src="resized_avatar.jpg" class="photo" alt="导游头像">
+        <div class="name">张晓雨</div>
+        <div class="desc">想要查看导游的电子导游证请关注以下二维码</div>
+
+        <div class="section">
+            <img src="resized_qrcode1.png" alt="导游或游客二维码">
+            <div class="section-text">
+                <div class="section-title">导游或游客</div>
+                <div class="section-desc">请关注左边的公众号，然后扫描导游证二维码即可查验导游证</div>
+                <div class="section-tip">点击放大后长按识别二维码</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <img src="resized_qrcode2.png" alt="旅游局主管部门二维码">
+            <div class="section-text">
+                <div class="section-title">旅游局主管部门</div>
+                <div class="section-desc">请在导游平台添加账号，然后关注“全国旅游监管”，即可扫码导游证二维码查验导游证</div>
+                <div class="section-tip">点击放大后长按识别二维码</div>
+            </div>
+        </div>
+
+        <div class="footer">页面生成自定义样式，仅供展示</div>
+    </div>
+</body>
+</html>
